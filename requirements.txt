@@ -8,3 +8,5 @@ streamlit-chat
 audio-recorder-streamlit
 langdetect
 googletrans==4.0.0-rc1 # --ignore-installed
+SpeechRecognition
+python-multipart

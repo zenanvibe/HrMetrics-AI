@@ -1,11 +1,19 @@
+# Package Installation
+
+```bash
+pip install -r requirements.txt
+```
+
 # Install Fine Tuned Model
 
-https://drive.google.com/file/d/1gjnI1YwQyCf-jUUaFVu6DPcLpyigu-gO/view?usp=share_link
+```bash
+python setup_model.py
+```
 
+Once you run this command the fine tuned model will automatically saved in models/leave
 
 # Tree
 
-Place the downloaded model from drive to the path ./models folder.
 ```
 .
 ├── Audios
@@ -23,12 +31,6 @@ Place the downloaded model from drive to the path ./models folder.
 │   └── leave.zip
 ├── requirements.txt
 └── test.json
-```
-
-# Package Installation
-
-```bash
-pip install -r requirements.txt
 ```
 
 # Running Server
